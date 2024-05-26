@@ -1,0 +1,29 @@
+.header-container {
+  background-color: #86c8bc;
+  padding: 5px;
+}
+
+.green-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #86c8bc;
+  padding: 5px;
+  margin: 0; /* Remove any default margin */
+  width: fit-content;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.feedback-title {
+  color: white;
+}
+
+/* Add this CSS to make the green box full-width */
+.header-container {
+  width: 100vw;
+}

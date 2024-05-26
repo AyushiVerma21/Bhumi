@@ -1,0 +1,20 @@
+.footer{
+	background-color:#86C8BC;
+	width: 100vw;
+}
+
+.footer-container {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  width: 100vw;
+	  background-color:#86C8BC;
+ }
+
+ .fc{
+ 	width: 100vw;
+ }
+ 
+ .av{
+ 	background-color:#86C8BC;
+ }

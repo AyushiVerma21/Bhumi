@@ -1,0 +1,47 @@
+.feedback-qa__title {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.feedback-qa__options {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.feedback-qa__option {
+  margin-right: 1rem;
+}
+
+.feedback-qa__input {
+  display: none;
+}
+
+.feedback-qa__number {
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+}
+
+.feedback-qa__input-small {
+  flex-grow: 1;
+  height: 30px;
+  padding: 0.25rem;
+  font-size: 16px;
+}
+
+.feedback-qa__answer {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.feedback-qa__option span {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  font-size: 25px; /* Adjust the font size as desired */
+  transition: font-size 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.feedback-qa__option.selected span {
+  filter: none;
+  font-size: 30px;
+}

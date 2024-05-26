@@ -1,0 +1,17 @@
+.donationFooter {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+}
+.footer-text {
+  color: mediumvioletred;
+}
+.contact {
+  color: indianred;
+}
+.footer-link {
+  color: green;
+}
+.ay {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}

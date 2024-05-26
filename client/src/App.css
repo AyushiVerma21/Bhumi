@@ -1,0 +1,68 @@
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Testimonials Container */
+.testimonials-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Testimonials Heading */
+.testimonials-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Testimonial Item */
+.testimonial-item {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid;
+}
+
+/* Left-aligned Testimonial */
+.testimonial-item.left-align {
+  border-color: #3cb371; /* Green */
+  text-align: left;
+}
+
+/* Right-aligned Testimonial */
+.testimonial-item.right-align {
+  border-color: #ffa500; /* Orange */
+  text-align: right;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Testimonial Info */
+.testimonial-info {
+  text-align: right;
+}
+
+/* Testimonial Name */
+.testimonial-name {
+  font-weight: bold;
+}
+
+/* Testimonial Company */
+.testimonial-company {
+  color: #777;
+}
